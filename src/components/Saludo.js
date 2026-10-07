@@ -1,9 +1,14 @@
-function Saludo() {
-    return (
-        <h1>Estoy salundando un juernes!!!</h1>,
-        <h2>Mi primer React!!!</h2>
-    );
+function Saludo (props) {
+    var mensaje = "Hoy es viernes"
+    const {nombre, edad}= props;
 
+
+    return (<div>
+        <h1>Estoy saludando un juernes!!!</h1>
+        <h2>Mi primer React!!!{mensaje}</h2>
+        <h2>Bienvenido/a {nombre} y su edad {props.edad}</h2>
+        </div>);
+    
 }
 
 export default Saludo;
