@@ -1,15 +1,11 @@
-function Metodos(){
-    const mostrarMensaje =() =>{
+function Metodos() {
+    const mostrarMensaje = () => {
         console.log("Mostrando mensaje");
     }
     return (<div>
-        <h2>
-            Ejemplos de métodos React
-        </h2>
+        <h2>Ejemplo de métodos React</h2>
         {mostrarMensaje()}
-        <button onClick={ () =>
-            mostrarMensaje() }>Pulsar...
-            </button>
+        <button onClick={ () => mostrarMensaje() }>Pulsar...</button>
     </div>)
 }
 
