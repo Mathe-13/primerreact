@@ -5,15 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Saludo from './components/Saludo';
 import Metodos from './components/Metodos';
-import DobleNumero from './components/DobleNumero'; 
+import DobleNumero from './components/DobleNumero';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <DobleNumero/>
-    <Metodos/>
-    <Saludo nombre="Lucia" edad="22" />
-    <Saludo nombre="Adrian" edad="26" />
   </React.StrictMode>
 );
 
